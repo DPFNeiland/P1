@@ -1,9 +1,9 @@
 import { View, Text, TouchableOpacity, ScrollView, Image } from "react-native";
-import { styles } from "./StyleTela1";
+import { styles } from "./StyleTela2";
 import TextoNome from "../../components/atoms/textonome/Textonome";
 import OpcoesBancarias from "../../components/molecules/OpcoesBancarias/OpcoesBancarias";
 
-export default function Tela1() {
+export default function Tela2() {
 
 
     return (
