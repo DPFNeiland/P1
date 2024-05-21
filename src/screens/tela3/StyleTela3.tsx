@@ -65,8 +65,7 @@ export const styles = StyleSheet.create({
 
 
     meuscartoes: {
-        backgroundColor: '#f0f1f5',
-        height: '12%',
+        height: '13%',
         borderRadius: 10,
         alignItems: 'flex-start',
         justifyContent: 'space-between',
@@ -96,10 +95,11 @@ export const styles = StyleSheet.create({
     },
 
     IconeTexto: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        gap: 20
+        flexDirection: "column",
+        alignItems: 'flex-start',
+        justifyContent: 'flex-start',
+        gap: 5,
+        width: '60%'
 
     }
 })

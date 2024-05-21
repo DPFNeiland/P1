@@ -17,58 +17,79 @@ export default function Tela2() {
                     </TouchableOpacity>
 
                     <View style={styles.bootes}>
-                        <Image  source={require('./../../assets/zoio.png')} />
+                        <Image source={require('./../../assets/zoio.png')} />
                         <Image source={require('./../../assets/question.png')} />
                         <Image source={require('./../../assets/mensagem.png')} />
                     </View>
                 </View>
 
-                <TextoNome texto="Olá, Ana Gabriela" />
             </View>
 
             <View style={styles.view2}>
-                <Text style={styles.conta}>Conta</Text>
-                <Text style={styles.conta}>R$ 1.356.897,98</Text>
+                <Text style={styles.conta}>Acompanhe seu dinheiro</Text>
 
 
-                <View style={styles.opcoes}>
-                    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.opcoesscrolview}>
-
-                        <OpcoesBancarias textoopcaobancario="Pix" i='i1' />
-                        <OpcoesBancarias textoopcaobancario="Pagar" i='i2' />
-                        <OpcoesBancarias textoopcaobancario={`Pegar \n Empréstimo`} i='i3' />
-                        <OpcoesBancarias textoopcaobancario="Transferir" i='i4' />
-
-
-                    </ScrollView>
-
-                </View>
 
                 <TouchableOpacity style={styles.meuscartoes}>
-                    <Image source={require('./../../assets/Cartoes.png')} />
-                    <Text style={styles.opcoesbancarias}>Meus  cartões</Text>
+                    <View style={styles.IconeTexto}>
+                        <Image source={require('./../../assets/Cartoes.png')} />
+                        <Text style={styles.opcoesbancarias}>Caixinhas</Text>
+                    </View>
+
+                    <Text style={styles.opcoesbancarias}>RS 100,00</Text>
+
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.meuscartoes}>
+                    <View style={styles.IconeTexto}>
+                        <Image source={require('./../../assets/Cartoes.png')} />
+                        <Text style={styles.opcoesbancarias}>Investimentos</Text>
+                    </View>
+
+                    <Text style={styles.opcoesbancarias}>RS 317,94</Text>
+
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.meuscartoes}>
+                    <View style={styles.IconeTexto}>
+                        <Image source={require('./../../assets/Cartoes.png')} />
+                        <Text style={styles.opcoesbancarias}>Cripto</Text>
+                    </View>
+
+                    <Text style={styles.opcoesbancarias}>RS 758,90</Text>
+
+                </TouchableOpacity>
+
+               
+
+                <Text style={styles.conta}> Seguros </Text>
+
+
+                <TouchableOpacity style={styles.meuscartoes}>
+                    <View style={styles.IconeTexto}>
+                        <Image source={require('./../../assets/Cartoes.png')} />
+                        <Text style={styles.opcoesbancarias}>Seguro de Vida</Text>
+                    </View>
+
+
+                </TouchableOpacity>
+
+                <TouchableOpacity style={styles.meuscartoes}>
+                    <View style={styles.IconeTexto}>
+                        <Image source={require('./../../assets/Cartoes.png')} />
+                        <Text style={styles.opcoesbancarias}>Seguro de ceular</Text>
+                    </View>
+
+
                 </TouchableOpacity>
 
 
 
-                <View style={styles.opcoes}>
-                    <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.opcoesscrolview}>
-                        <TouchableOpacity style={styles.Novidade}>
-                            <Text style={styles.novidadetext}>Novidade! </Text>
-                            <Text style={styles.novidadesacompanhando}>Conheça a ferramenta de controle de Gastos do Nubank.</Text>
-                        </TouchableOpacity>
-                    </ScrollView>
-                </View>
-
-                <Text style={styles.conta}> Cartão de Crédito </Text>
-
-                <Text style={styles.novidadesacompanhando}>Conheça a ferramenta de controle de Gastos do Nubank.</Text>
-
             </View>
 
 
-            <View style={{backgroundColor: 'red', width: '100%', height: '10%'}}>
-                
+            <View style={{ backgroundColor: 'red', width: '100%', height: '10%' }}>
+
             </View>
         </View>
 
