@@ -18,7 +18,7 @@ export default function Tela3() {
 
                     <View style={styles.bootes}>
                         <Image source={require('./../../assets/zoio.png')} />
-                        <Image source={require('./../../assets/question.png')} />
+                        <TouchableOpacity><Image source={require('./../../assets/question.png')} /></TouchableOpacity>
                         <Image source={require('./../../assets/mensagem.png')} />
                     </View>
                 </View>
@@ -71,9 +71,6 @@ export default function Tela3() {
             </View>
 
 
-            <View style={{ backgroundColor: 'red', width: '100%', height: '10%' }}>
-
-            </View>
         </View>
 
     )

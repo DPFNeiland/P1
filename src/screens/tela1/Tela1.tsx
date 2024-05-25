@@ -2,6 +2,8 @@ import { View, Text, TouchableOpacity, ScrollView, Image } from "react-native";
 import { styles } from "./StyleTela1";
 import TextoNome from "../../components/atoms/textonome/Textonome";
 import OpcoesBancarias from "../../components/molecules/OpcoesBancarias/OpcoesBancarias";
+import Icons from 'react-native-vector-icons/MaterialCommunityIcons';
+
 
 export default function Tela1() {
 
@@ -18,7 +20,7 @@ export default function Tela1() {
 
                     <View style={styles.bootes}>
                         <Image  source={require('./../../assets/zoio.png')} />
-                        <Image source={require('./../../assets/question.png')} />
+                        <TouchableOpacity><Image source={require('./../../assets/question.png')} /></TouchableOpacity>
                         <Image source={require('./../../assets/mensagem.png')} />
                     </View>
                 </View>
@@ -67,9 +69,8 @@ export default function Tela1() {
             </View>
 
 
-            <View style={{backgroundColor: 'red', width: '100%', height: '10%'}}>
                 
-            </View>
+
         </View>
 
     )

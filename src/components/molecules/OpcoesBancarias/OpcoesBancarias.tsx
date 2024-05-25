@@ -3,6 +3,8 @@ import React from 'react';
 import { TouchableOpacity, Image, View } from 'react-native';
 import TextoOpcoesBancarias from '../../atoms/TextoOpcoesBancarias/TextoOpcoesBancarias';
 import { styles } from './StyleOpcoesBancarias';
+import AntDesign from '@expo/vector-icons/AntDesign';
+
 
 const images = {
     i1: require('../../../assets/Pix.png'),
